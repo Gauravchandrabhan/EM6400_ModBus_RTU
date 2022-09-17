@@ -1,0 +1,5 @@
+Register Values for Electrical parameters in Em6400:
+Current average - 43913
+Line to line average voltage - 43907
+Active power, total - 43903
+Forward active energy - 43961
