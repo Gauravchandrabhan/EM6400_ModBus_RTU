@@ -55,14 +55,14 @@ while 1:
 
     # Printing Power Value
     for name, value in iteritems(W_d):
-        print ("%s\t" % name, round(value,2))
+        print ("%s\t" % name, round(value,1))
         W=value
     
     # Printing Energy Value
     for name, value in iteritems(E_d):
-        print ("%s\t" % name, round(value,1))
+        print ("%s\t" % name, round(value,2))
         E=value
 
-    time.sleep(5) #Giving a 5 sec delay between each value
+    time.sleep(15) #Giving a 15 sec delay between each value
 
 client.close()
